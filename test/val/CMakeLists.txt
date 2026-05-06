@@ -41,6 +41,7 @@ add_spvtools_unittest(TARGET val_abcde
        val_explicit_reserved_test.cpp
        val_invalid_type_test.cpp
        val_extensions_test.cpp
+       val_extension_spv_khr_abort_test.cpp
        val_extension_spv_khr_expect_assume_test.cpp
        val_extension_spv_khr_linkonce_odr_test.cpp
        val_extension_spv_khr_subgroup_uniform_control_flow_test.cpp
@@ -52,6 +53,7 @@ add_spvtools_unittest(TARGET val_abcde
        val_extension_spv_intel_arbitrary_precision_integers_test.cpp
        val_extension_spv_intel_function_variants.cpp
        val_extension_spv_intel_inline_assembly.cpp
+       val_extension_spv_intel_predicated_io_test.cpp
        val_extension_spv_ext_descriptor_heap.cpp
        val_ext_inst_test.cpp
        val_ext_inst_debug_test.cpp
