@@ -58,6 +58,7 @@ vars = {
   # Repo sources
   'chromium_git': 'https://chromium.googlesource.com',
   'github': 'https://github.com',
+  'gitlab': 'ssh://git@gitlab.khronos.org',
 
   # Building context
   'build_with_chromium': False,
@@ -70,13 +71,13 @@ vars = {
 
   # Commits for SPIRV-Tools dependencies
 
-  'abseil_revision': '3a80a7794c7405b95dfa1f1afa26b37adf817636',
+  'abseil_revision': '8f8fe25cb768b2c10ff5ce448bdfa5ddfb8fbb0b',
   'effcee_revision': 'f8e8a164822d4f65e757bff66bc00e1567959aa0',
-  'googletest_revision': 'f840327b0f76408eafde2440af3b2f0a70662ea6',
+  'googletest_revision': '988ea2c1798de7779f656df2281dd36d6039a17a',
   # Use a recent protobuf, which can depend on abseil
   'protobuf_revision': '35cd01f9fe9afbeea38cc7b979a3b6bfcde82c03',
-  're2_revision': '972a15cedd008d846f1a39b2e88ce48d7f166cbd',
-  'spirv_headers_revision': '04fd3caa1e8267e4d95c806cad901181728e1006',
+  're2_revision': '2da0056814cf180480a19f5cf811e7e1c054bf6d',
+  'spirv_headers_revision': '86f980c731e62ae4eaf383d320449d71687936bf',
   'mimalloc_revision': '31d034d94cdb8e22f7d7ed55967f581a2d6e831d',
 
   # SPIRV-Tools standalone GN-only dependencies
